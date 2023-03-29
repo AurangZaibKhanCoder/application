@@ -1,0 +1,15 @@
+{
+  "data": [
+    {
+      "firstname": "binyameen ",
+      "surname": "chadar",
+      "email": "binyameen@gmail.com",
+      "phone": "2394803",
+      "password": "khan2011",
+      "city": "London",
+      "gender": "male",
+      "hobbies": null,
+      "id": 3
+    }
+  ]
+}

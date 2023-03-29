@@ -1,0 +1,40 @@
+<br />
+<button pButton routerLink="" class="p-button-sm p-button-raised">Back</button>
+
+<br />
+<br />
+<p-table [value]="data">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>Id</th>
+      <th>FirstName</th>
+      <th>SurName</th>
+      <th>City</th>
+      <th>Email</th>
+      <th>phone</th>
+
+      <th>gender</th>
+      <th>Action</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-product>
+    <tr>
+      <td>{{ product.id }}</td>
+      <td>{{ product.firstname }}</td>
+      <td>{{ product.surname }}</td>
+      <td>{{ product.city }}</td>
+      <td>{{ product.email }}</td>
+      <td>{{ product.phone }}</td>
+      <td>{{ product.gender }}</td>
+      <td>
+        <button
+          pButton
+          type="button"
+          label="Delete"
+          class="p-button-sm p-button-danger"
+          (click)="delete(product.id)"
+        ></button>
+      </td>
+    </tr>
+  </ng-template>
+</p-table>
