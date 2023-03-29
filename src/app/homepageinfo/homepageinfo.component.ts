@@ -21,7 +21,7 @@ export class HomepageinfoComponent {
     )
   }
   delete(id:any){
-    this.dataservice.deleteEmployee(id).subscribe(
+    this.dataservice.deleteData(id).subscribe(
     {
       next:(Response)=>{
         console.log("data id ",id)

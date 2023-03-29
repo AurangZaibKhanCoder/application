@@ -18,7 +18,7 @@ all():Observable<Datainterface[]>{
 newdata(data:any):Observable<Datainterface[]>{
   return this.http.post<Datainterface[]>(this.apiUrl,data)
 }
-deleteEmployee(id:string):Observable<Datainterface>{
+deleteData(id:string):Observable<Datainterface>{
   return this.http.delete<Datainterface>(`${this.apiUrl}/${id}`)
 }
   }
