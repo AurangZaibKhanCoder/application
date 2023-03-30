@@ -27,7 +27,8 @@ export class HomepageComponent {
     password:new FormControl(),
     city:new FormControl(),
     gender:new FormControl(),
-    hobbies:new FormControl()
+    hobbies:new FormControl
+
 
   })
   

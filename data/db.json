@@ -10,6 +10,72 @@
       "gender": "male",
       "hobbies": null,
       "id": 3
+    },
+    {
+      "firstname": "zaib",
+      "surname": "khan",
+      "email": "zab@gmail.com",
+      "phone": "90090890890",
+      "password": "khan2000",
+      "city": "London",
+      "gender": "male",
+      "hobbies": null,
+      "id": 4
+    },
+    {
+      "firstname": "sania",
+      "surname": "rajpoot",
+      "email": "sania@gmail.com",
+      "phone": "09808089",
+      "password": "khaajjhdlkf",
+      "city": "London",
+      "gender": "Female",
+      "hobbies": null,
+      "id": 5
+    },
+    {
+      "firstname": "hghjg",
+      "surname": "jhghjg",
+      "email": "jhghg",
+      "phone": "hgjh",
+      "password": "hghg",
+      "city": "London",
+      "gender": "male",
+      "hobbies": true,
+      "id": 6
+    },
+    {
+      "firstname": "sdas",
+      "surname": "xccxcx",
+      "email": "df@df",
+      "phone": "342234",
+      "password": "wwfsdfd",
+      "city": "India",
+      "gender": "Female",
+      "hobbies": true,
+      "id": 7
+    },
+    {
+      "firstname": "sdffds",
+      "surname": "dfsdfdfsdf",
+      "email": "dsffd@",
+      "phone": "dfs",
+      "password": "fds",
+      "city": null,
+      "gender": null,
+      "hobbies": null,
+      "id": 8
+    },
+    {
+      "firstname": "usman",
+      "surname": "kayani",
+      "email": "usman@gmail.com",
+      "phone": "0989088890",
+      "password": "khanlksjdf",
+      "city": "pakistan",
+      "gender": "male",
+      "hobbies": true,
+      "id": 17
     }
   ]
 }
